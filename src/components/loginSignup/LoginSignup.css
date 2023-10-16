@@ -1,0 +1,64 @@
+/* outer div  */
+.LoginSignupOuterDiv {
+  background-color: rgb(57, 140, 248);
+  padding: 10px 0;
+  margin: 0;
+  height: calc(100vh + 20px);
+}
+
+/*  css for form */
+.loginSignupForm {
+  width: 320px;
+  margin: auto;
+  background-color: rgb(141, 190, 253);
+  padding: 20px;
+  border-radius: 5px;
+}
+.loginSignupForm > h1 {
+  margin: 0;
+  text-align: center;
+}
+.loginSignupDiv {
+  margin: 15px;
+}
+.loginSignupDiv > label {
+  font-size: larger;
+}
+.loginSignupDiv > input {
+  display: block;
+  width: 100%;
+  padding: 7px;
+  outline: none;
+  border: 1px solid rgb(141, 190, 253);
+  margin-top: 5px;
+}
+.loginSignupDiv > input:focus {
+  outline: none;
+}
+
+.btnDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.btnDiv > button {
+  background-color: green;
+  border: none;
+  padding: 9px;
+  border-radius: 7px;
+  color: #fff;
+  margin-top: 20px;
+}
+.btnDiv > button:hover {
+  background-color: rgb(2, 73, 2);
+}
+
+/*  css for error message */
+.errorMsg {
+  width: 80%;
+  margin: 0 auto 5px;
+  color: red;
+  text-align: center;
+}
