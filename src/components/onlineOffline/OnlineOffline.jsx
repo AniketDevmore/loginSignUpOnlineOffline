@@ -4,7 +4,7 @@ import { RouterProvider } from "react-router-dom";
 import { router } from "../../router";
 
 const OnlineOffline = () => {
-  const [online, setOnline] = useState(false);
+  const [online, setOnline] = useState(navigator.onLine);
 
   useEffect(() => {
     const onlineHandler = () => {
